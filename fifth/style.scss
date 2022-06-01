@@ -1,0 +1,133 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Lato:wght@300&family=Montserrat:ital,wght@0,200;0,600;1,400&family=Noto+Sans:wght@400;700&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@500&display=swap');
+.img_second{
+  position: absolute;
+  z-index: -200;
+}
+#header {
+  .header {
+    &_general {
+      display: flex;
+      justify-content: space-between;
+
+      &__logo {
+        margin-top: 60px;
+      }
+
+      &__navbar {
+        margin: 70px 0 0 640px;
+        position: absolute;
+        z-index: 10;
+
+        a {
+          font-family: 'Forum', sans-serif;
+
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #FFFFFF;
+          margin-left: 28px;
+        }
+      }
+    }
+  }
+}
+#expectation {
+
+  .expectation {
+    text-align: center;
+    margin-bottom: 100px;
+    h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+      margin: 105px 0 35px 0;
+  }
+    &_general {
+      display: flex;
+      justify-content: center;
+      &__image {
+      }
+
+      &__title {
+        text-align: start;
+        margin-left: 85px;
+        h2{
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 53px;
+          letter-spacing: -0.025em;
+          color: #FFFFFF;
+        }
+        h1{
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 53px;
+          letter-spacing: -0.025em;
+          margin: 26px 0;
+          color: #FFA800;
+        }
+      }
+    }
+    button{
+      width: 717px;
+      height: 66px;
+      margin: 50px 0 0 0;
+      background: #FFA800;
+      border-radius: 7px;
+      font-family: 'Forum',sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 26px;
+      letter-spacing: -0.025em;
+      color: #FFFFFF;
+    }
+  }
+}
+
+#footer{
+
+  .footer {
+    border-top: 2px solid #FFA800;
+
+    &_general {
+      display: flex;
+      justify-content: space-between;
+
+      &__logo {
+      }
+
+      &__icons {
+        margin-top: 20px;
+        a{
+          margin: 10px 10px 0 0;
+        }
+
+      }
+
+      &__link {
+        margin-top: 30px;
+        a {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #FFFFFF;
+          margin: 10px 20px;
+        }
+      }
+    }
+    &__safety {
+      height: 100px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
+      color: #FFA800;
+      margin: 55px 0 0 150px;
+
+    }
+  }
+}

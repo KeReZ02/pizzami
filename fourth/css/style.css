@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Lato:wght@300&family=Montserrat:ital,wght@0,200;0,600;1,400&family=Noto+Sans:wght@400;700&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+body {
+  background: #000000;
+  font-family: "Forum", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img_second {
+  position: absolute;
+  z-index: -200;
+}
+
+#header .header_general {
+  display: flex;
+  justify-content: space-between;
+}
+#header .header_general__logo {
+  margin-top: 60px;
+}
+#header .header_general__navbar {
+  margin: 70px 0 0 640px;
+  position: absolute;
+  z-index: 10;
+}
+#header .header_general__navbar a {
+  font-family: "Forum", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-left: 28px;
+}
+#header .header_general .img {
+  position: absolute;
+  width: 345px;
+  height: 20px;
+  left: 960px;
+  top: 60px;
+}
+
+#form .form_general__title {
+  text-align: center;
+}
+#form .form_general__title h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.025em;
+  margin: 100px 0 60px 0;
+  color: #FFFFFF;
+}
+#form .form_general__title h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+}
+#form .form_general__input {
+  text-align: center;
+}
+#form .form_general__input input {
+  width: 404px;
+  height: 60px;
+  margin: 10px 15px;
+  border: none;
+  border-bottom: 1px solid #FFA800;
+  background: transparent;
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #968C7A;
+}
+#form .form_general__input h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  color: #FFA800;
+  margin: 20px 0;
+}
+#form .form_general__btn {
+  text-align: center;
+}
+#form .form_general__btn h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  color: #FFA800;
+  margin: 50px 0;
+}
+#form .form_general__btn__btn {
+  display: flex;
+  justify-content: space-around;
+}
+#form .form_general__btn__btn__btn1 button {
+  width: 197px;
+  height: 41px;
+  background: transparent;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+}
+#form .form_general__btn__btn__btn1 .check {
+  margin: 40px;
+}
+#form .form_general__btn__btn__btn1 .check input {
+  background: #000000;
+  border: 1px solid #FFA800;
+  margin: 0 20px 0 20px;
+}
+#form .form_general__btn__btn__btn1 .check span {
+  font-family: "Forum", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#form .form_general__btn__btn__btn1 .input_image {
+  margin: 40px;
+}
+#form .form_general__btn__btn__btn1 .input_image input {
+  width: 348px;
+  height: 84px;
+  text-align: start;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-family: "Forum", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  font-size: 24px;
+  line-height: 26px;
+  background: transparent;
+  padding-right: 30px;
+  color: #968C7A;
+}
+#costume .costume {
+  text-align: center;
+}
+#costume .costume h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  color: #FFA800;
+  margin: 40px 0;
+}
+#costume .costume_general {
+  display: flex;
+  justify-content: center;
+}
+#costume .costume_general__block button {
+  width: 197px;
+  height: 41px;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  background: transparent;
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  margin: 16px 0;
+  color: #FFFFFF;
+}
+#costume .costume_general__btn button {
+  width: 275px;
+  height: 67px;
+  background: #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-family: "Forum", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.05em;
+  margin: 50px 0 100px 0;
+  color: #FFFFFF;
+}
+
+#footer .footer {
+  border-top: 2px solid #FFA800;
+}
+#footer .footer_general {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer_general__icons {
+  margin-top: 20px;
+}
+#footer .footer_general__icons a {
+  margin: 10px 10px 0 0;
+}
+#footer .footer_general__link {
+  margin-top: 30px;
+}
+#footer .footer_general__link a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 10px 20px;
+}
+#footer .footer__safety {
+  height: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFA800;
+  margin: 55px 0 0 150px;
+}
+
+/*# sourceMappingURL=style.css.map */

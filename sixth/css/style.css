@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Lato:wght@300&family=Montserrat:ital,wght@0,200;0,600;1,400&family=Noto+Sans:wght@400;700&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+body {
+  background: #000000;
+  font-family: "Forum", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img_second {
+  position: absolute;
+  z-index: -200;
+}
+
+#header .header_general {
+  display: flex;
+  justify-content: space-between;
+}
+#header .header_general__logo {
+  margin-top: 60px;
+}
+#header .header_general__navbar {
+  margin: 70px 0 0 640px;
+  position: absolute;
+  z-index: 10;
+}
+#header .header_general__navbar a {
+  font-family: "Forum", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-left: 28px;
+}
+
+#Bon_appetit .Bon_appetit {
+  text-align: center;
+}
+#Bon_appetit .Bon_appetit__general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Bon_appetit .Bon_appetit__general h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.025em;
+  margin: 105px 0 30px 0;
+  color: #FFFFFF;
+}
+#Bon_appetit .Bon_appetit__general__image {
+  margin-bottom: 37px;
+}
+#Bon_appetit .Bon_appetit__general button {
+  width: 370px;
+  height: 77px;
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  margin-bottom: 100px;
+  color: #FFFFFF;
+  background: #FFA800;
+  border-radius: 7px;
+}
+
+#footer .footer {
+  border-top: 2px solid #FFA800;
+}
+#footer .footer_general {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer_general__icons {
+  margin-top: 20px;
+}
+#footer .footer_general__icons a {
+  margin: 10px 10px 0 0;
+}
+#footer .footer_general__link {
+  margin-top: 30px;
+}
+#footer .footer_general__link a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 10px 20px;
+}
+#footer .footer__safety {
+  height: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFA800;
+  margin: 55px 0 0 150px;
+}
+
+/*# sourceMappingURL=style.css.map */
