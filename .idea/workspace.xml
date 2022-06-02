@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa086d6-d257-426b-b35e-6a0f74ec59a6" name="Changes" comment="git commit -m &quot;index&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifth/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/fifth/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifth/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fifth/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifth/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fifth/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fourth/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fourth/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/second/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/second/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/third/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/third/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="cfa086d6-d257-426b-b35e-6a0f74ec59a6" name="Changes" comment="git commit -m &quot;index&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +112,7 @@
       <workItem from="1654051823696" duration="6010000" />
       <workItem from="1654059275159" duration="87000" />
       <workItem from="1654160793519" duration="186000" />
-      <workItem from="1654166720961" duration="5406000" />
+      <workItem from="1654166720961" duration="5714000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;s&quot;">
       <created>1653831460819</created>
@@ -145,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654045091764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git commit -m &quot;index&quot;">
+      <created>1654176067161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654176067161</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
