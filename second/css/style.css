@@ -76,6 +76,11 @@ a {
   background: #FFA800;
   border-radius: 13px;
 }
+#menu button:hover{
+  background: transparent;
+  color: #FFA800;
+  border: 1px solid #FFA800;
+}
 #menu span {
   margin: 45px 0 0 400px;
 }
@@ -143,7 +148,10 @@ a {
   line-height: 20px;
   margin: 20px 0;
 }
-
+#menu .menu_gen__general__block button:hover{
+  background: transparent;
+  color: #FFA800;
+}
 #footer .footer {
   border-top: 2px solid #FFA800;
 }

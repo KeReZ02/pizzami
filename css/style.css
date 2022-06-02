@@ -95,12 +95,12 @@ a {
   text-align: start;
   margin-left: 20px;
 }
-#hero .hero_general__items .img_man {
+#hero .hero_general__items__img {
   position: absolute;
   width: 432px;
   height: 551px;
-  left: 1700px;
-  top: 190px;
+  left: 900px;
+  top: 170px;
   z-index: 5;
 }
 #hero .hero_general__items .img_bag {
@@ -110,14 +110,13 @@ a {
   left: 2010px;
   top: 380.16px;
 }
-#hero .hero_general__items__p h5 {
-  width: 300px;
-  height: 60px;
+#hero .hero_general__items__title1 {
+ ;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   color: #FFA800;
-  margin-left: 250px;
+  margin-left: 120px;
 }
 #hero .hero_general__delivery button {
   width: 270px;
@@ -130,6 +129,10 @@ a {
   line-height: 26px;
   color: #FFFFFF;
   margin: 56px 0;
+}
+#hero .hero_general__delivery button:hover {
+  background: #FFA800;
+
 }
 #hero .hero_general__delivery p {
   font-weight: 400;
@@ -205,6 +208,10 @@ a {
   line-height: 20px;
   margin: 20px 0;
 }
+#menu .menu_gen__general__block button:hover {
+  background: transparent;
+  color: #FFA800;
+}
 #menu .menu_gen__general__block .btn_none {
   display: none;
 }
@@ -222,7 +229,11 @@ a {
   color: #FFFFFF;
   margin: 105px  0 -100px 0;
 }
+#menu .menu_gen .btn_menu:hover{
+  background: transparent;
+  color:#FFA800; ;
 
+}
 .img_2 {
   position: relative;
   left: -105px;
@@ -240,144 +251,6 @@ h4 {
   color: #FFFFFF;
   margin: -320px 0 0 500px;
 }
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  font-size: 10px;
-}
-
-.b_menu {
-  width: 100%;
-  background: transparent;
-
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  background-size: 400% 400%;
-  position: relative;
-}
-
-.nav-bar {
-  position: absolute;
-  background-color: transparent;
-  top: 0;
-  right: 100%;
-  height: 100vh;
-  width: 250px;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: position 2.9s;
-  -webkit-transition: position 2.9s;
-  -moz-transition: position 2.9s;
-  -ms-transition: position 2.9s;
-  -o-transition: position 2.9s;
-}
-
-.toggle {
-  left: 0;
-  box-shadow: 1px 0 15px 2px rgba(0, 0, 0, 0.4);
-}
-
-.toggle-menu {
-  background-color: rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 40px;
-  height: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 2px 2px 2px 3px;
-  border-radius: 5px;
-  cursor: pointer;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-.line {
-  width: 100%;
-  height: 3px;
-  border-radius: 5px;
-  background-color: #fff;
-  transition: transform 0.2s ease-out;
-  -webkit-transition: transform 0.2s ease-out;
-  -moz-transition: transform 0.2s ease-out;
-  -ms-transition: transform 0.2s ease-out;
-  -o-transition: transform 0.2s ease-out;
-}
-
-.toggle .line1 {
-  background-color: #000000;
-  transform: scale(0.9) rotateZ(-45deg) translate(-6px, 4px);
-}
-
-.toggle .line2 {
-  display: none;
-}
-
-.toggle .line3 {
-  background-color: #000000;
-  transform: scale(0.9) rotateZ(45deg) translate(-6px, -4px);
-}
-
-.toggle .toggle-menu {
-  background-color: white;
-}
-
-.nav-list {
-  list-style: none;
-
-}
-
-.nav-list-item {
-  text-align: center;
-  padding: 10px 0;
-}
-.nav-list-item a{
-  color: white;
-
-}
-.nav-link {
-  color: #fff;
-  font-size: 22px;
-  text-decoration: none;
-  position: relative;
-  padding-bottom: 4px;
-}
-
-.nav-link::before {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-  background-color: #fff;
-  transform: scaleX(0);
-  transition: transform 0.4s ease-in-out;
-  transform-origin: left;
-  -webkit-transition: transform 0.4s ease-in-out;
-  -moz-transition: transform 0.4s ease-in-out;
-  -ms-transition: transform 0.4s ease-in-out;
-  -o-transition: transform 0.4s ease-in-out;
-}
-
-.nav-link:hover::before {
-  transform: scaleX(1);
-}
-
 
 #footer .footer {
   border-top: 2px solid #FFA800;

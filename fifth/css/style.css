@@ -94,7 +94,11 @@ a {
   letter-spacing: -0.025em;
   color: #FFFFFF;
 }
-
+#expectation .expectation button:hover {
+  background: transparent;
+  color:#FFA800 ;
+  border:1px solid #FFA800;
+}
 #footer .footer {
   border-top: 2px solid #FFA800;
 }

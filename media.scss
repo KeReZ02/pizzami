@@ -3,11 +3,17 @@
     width: 90%;
   }
 }
-@media(max-width: 1200px){
-
+@media(max-width: 768px) {
+  .line {
+    display: flex;
+  }
+  .header_general__navbar{
+    display: none;
+  }
 }
-@media(max-width: 320px){
-  .hero_general__items__p{
+
+@media(max-width: 320px) {
+  .hero_general__items__p {
     margin-left: -600px;
   }
 
